@@ -1,0 +1,13 @@
+<template>
+    <lightning-card>
+    <lightning-layout multiple-rows>
+    <lightning-layout-item padding="around-small" size="4">
+    <c-search-merchandise ongetmerchandisedata={handlemerchandisedata}></c-search-merchandise>
+    <!-- <c-search-merchandise ongetmerchandisedatabystock={handlemerchandisedata}></c-search-merchandise> -->
+    </lightning-layout-item>
+    <lightning-layout-item padding="around-small" size="8">
+    <c-display-Merchandise searchmer={searchDetails}></c-display-Merchandise>
+    </lightning-layout-item>
+    </lightning-layout>
+    </lightning-card>    
+    </template>

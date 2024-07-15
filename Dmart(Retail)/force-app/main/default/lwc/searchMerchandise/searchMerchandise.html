@@ -1,0 +1,7 @@
+<template>
+    <lightning-card>
+    <lightning-input name="myMerName" label="Merchandise Name" type="String" value={merchName} onchange={handlechangeMerchName}></lightning-input>
+    <lightning-input name="myMerStock" label="Merchandise Stock" type="Integer" value={merchStock} onchange={handlechangeMerchStock}></lightning-input>
+    <lightning-button variant="brand" label="Search Merchandise" title="Click here to initiate" onclick={handleMerchandiseSearch}></lightning-button>
+    </lightning-card>
+    </template>
